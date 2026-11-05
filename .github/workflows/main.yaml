@@ -1,0 +1,11 @@
+name: first ci cd pipeline
+on:
+  push:
+jobs:
+   hello-world:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout code
+        run: echo "hello world
+        run:  pwd
+ 
